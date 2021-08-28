@@ -19,6 +19,10 @@ config/name="button-multiplayer-server"
 run/main_scene="res://Server.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Players="*res://Players.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
